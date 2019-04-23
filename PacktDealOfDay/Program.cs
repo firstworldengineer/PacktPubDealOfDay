@@ -14,7 +14,7 @@ namespace PacktDealOfDay
             var html = hw.Load(url);
 
             //name of html class that contains the name of the book - found by inspecting element in website
-            string htmlClassWeAreSearchingFor = "dotd-title";
+            string htmlClassWeAreSearchingFor = "product-title";
             string dotdTitle = string.Empty;
 
             //extract name with HTMLAgilityPack's parser
